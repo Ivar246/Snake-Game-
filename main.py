@@ -25,4 +25,6 @@ while game_is_on:
     time.sleep(0.4)
     for seg in segments:
         seg.forward(20)
+    
+    segments 
         
