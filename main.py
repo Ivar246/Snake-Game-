@@ -1,4 +1,5 @@
 from turtle import Screen, Turtle, exitonclick
+import turtle
 from snake import Snake
 from food import Food
 from score_board import Scoreboard
@@ -33,6 +34,7 @@ while game_is_on:
     # collision with food
     if snake.head.distance(food) < 15: 
         food.refresh()
+        scoreboard.increase_score()
         
 
 screen.exitonclick()
