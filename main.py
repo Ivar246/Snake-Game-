@@ -14,7 +14,7 @@ screen.tracer(0)
 
 snake = Snake()
 food = Food()
-score = Scoreboard()
+scoreboard = Scoreboard()
 
 
 screen.listen()
